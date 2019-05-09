@@ -1,4 +1,4 @@
-﻿Shader "BigTalkUnity/Simple Shader" {
+﻿Shader "MyShader/Simple Shader" {
 	SubShader{
 		Pass {
 			CGPROGRAM

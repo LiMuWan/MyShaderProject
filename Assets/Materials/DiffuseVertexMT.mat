@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DiffuseMT
+  m_Name: DiffuseVertexMT
   m_Shader: {fileID: 4800000, guid: a0346d06a6c481340a9fb5a44c0b7708, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
