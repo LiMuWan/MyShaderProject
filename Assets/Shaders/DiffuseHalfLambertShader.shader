@@ -52,8 +52,11 @@
 			//获取光照的方向
 			fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
 
+			//计算半兰伯特
+			fixed halfLambert = dot(worldNormal, worldLight) * 0.5f + 0.5f;
+
 			//计算漫反射
-			fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * dot(worldNormal, worldLight) * 0.5f + 0.5f;
+			fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * halfLambert;
 
 			fixed3 color = ambient + diffuse;
 
