@@ -80,7 +80,8 @@
 
 		   fixed3 color = ambient + diffuse + specular;
 
-	  	   return fixed4(color,1.0);
+		   return fixed4(color, 1.0);	 
+
 	    }
 	     ENDCG
 	    }
